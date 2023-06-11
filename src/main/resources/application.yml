@@ -4,7 +4,7 @@ spring:
     cache: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://ip:3306/seckill?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://43.138.101.148:3306/seckill?useUnicode=true&characterEncoding=utf-8
     username: root
     password: Password1.1
 # 数据库连接池
@@ -28,7 +28,7 @@ spring:
       #mybatis-plus 配置mybatis-plus:
   redis:
     port: 65520
-    host: ip
+    host: 43.138.101.148
     password: Password1.1
     database: 0
     timeout: 10000ms
@@ -40,7 +40,7 @@ spring:
         max-active: 8
         max-wait: 10000ms
   rabbitmq:
-    host: ip
+    host: 43.138.101.148
     port: 5672
     username: guest
     password: Password1.1
